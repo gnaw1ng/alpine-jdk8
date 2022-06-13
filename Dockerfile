@@ -6,3 +6,4 @@ RUN echo -e "https://mirrors.ustc.edu.cn/alpine/latest-stable/main\nhttps://mirr
     && echo Asia/Shanghai > /etc/timezone \
     && apk del tzdata \
     && rm -rf /tmp/* /var/cache/apk/*
+WORKDIR /project
